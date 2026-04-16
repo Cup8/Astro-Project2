@@ -3,24 +3,21 @@
 import Footer from "../components/footer.astro"
 import Nav from "../components/nav.astro"
 ---
-<Layout>
-	<!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<meta charset = "UTF-8">
-			<title></title>
-		</head>
-		<style>
-			.blog{
-				font-size: 24pt; 
-				text-align: center;
-			
-			}
-		</style>
-		<body>
-			<Nav />
-			<slot />
-			<Footer />
-		</body>
-	</html>
-</Layout>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CUP 8</title>
+	</head>
+	<style>
+		.blog{
+			font-size: 24pt;
+			text-align: center;
+		}
+	</style>
+	<body>
+		<Nav />
+		<slot />
+		<Footer />
+	</body>
+</html>
