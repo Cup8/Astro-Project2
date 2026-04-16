@@ -1,7 +1,7 @@
 const navData = [
     {
         name: "Blog",
-        path: "/Blog/",
+        path: "/2ndtierpages/blog/",
     },
 ]
 export default navData;
