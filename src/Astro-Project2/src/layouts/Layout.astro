@@ -1,0 +1,24 @@
+---
+//need to look up all idea for fonts from earlier chapters
+import Footer from "../components/footer.astro"
+---
+<Layout>
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset = "UTF-8">
+			<title></title>
+		</head>
+		<style>
+			.blog{
+				font-size: 24pt; 
+				text-align: center;
+			
+			}
+		</style>
+		<body>
+			<slot />
+			<Footer />
+		</body>
+	</html>
+</Layout>
