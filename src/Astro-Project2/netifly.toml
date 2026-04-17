@@ -1,0 +1,4 @@
+[build]
+base = "src/Astro-Project2"
+command = "npm install && npm run build"
+publish = "dist"

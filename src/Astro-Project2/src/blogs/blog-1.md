@@ -1,9 +1,17 @@
 ---
-import Layout from "../../../layouts/Layout.astro"
+layout: ../../layouts/markdownlayout.astro
+title: 'my first blog post'
+
+
+pubDate: 2026-17-04
+description: 'This is the first post of my new Astro blog.'
+author: 'CUP8'
+tags: ["astro", "blogging", "learning in public"]
 ---
 
-<slot 
-<p class="blog">
+
+
+<p  class="blog">
     This is my first and intial post of my blog. I am starting with a short rant about how pigeons are moving up in how much I enjoy them. 
     My lady recently has had an obsession with pigeons and now they are growing to my good side. She starts by telling me that pigeons used to be 
     domesticated and how all of humanity once used these birds everyday and now we compare them to rats. I heard facts like this for about 2 weeks. 
@@ -11,4 +19,4 @@ import Layout from "../../../layouts/Layout.astro"
     Then one day I saw a video of a pet pigeon and that is when it struck me. That I would get a Pigeon and go back on what history has done to these animals.
     To give one lucky pigeon a chance at a different life, But only if it will deliver letters around the world. 
 </p>
-/>
+
